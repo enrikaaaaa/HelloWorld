@@ -11,7 +11,7 @@ const audi = {
   color: 'white',
 };
 const showObjectKeys = (obj) => {
-  return Object.keys(obj); //Object.keys grazina masyva su objekto keyusu
+  return Object.keys(obj);
 }
-console.log(showObjectKeys(audi)); //Isvedam i console
+console.log(showObjectKeys(audi));
 
