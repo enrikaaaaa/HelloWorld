@@ -14,9 +14,8 @@ const b = division(four, two);
 const c = substraction(three, two); 
 const d = multiplication(five, two);  
 
-console.log(a); //Isvedam i console visus
+console.log(a);
 console.log(b);     
 console.log(c);
 console.log(d);
 
-//Iš principo nežinau ar gerai padariau, bet lyg ir veikia :)
