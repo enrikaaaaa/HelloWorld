@@ -21,10 +21,10 @@ const users = [
 ];
 
 const getUserAverageAge = (users) => {
-  let sum = 0;  //Suma prilyginam 0 nu juk nieko dar neturime
+  let sum = 0;
   users.forEach((user) => {
-    sum += user.age; //Suma pridedam prie vartotojo amziaus
+    sum += user.age;
   });
-  return sum / users.length; //Padalinam suma is vartotoju skaiciaus
+  return sum / users.length;
 }
-console.log(getUserAverageAge(users)); //Isvedam i console
+console.log(getUserAverageAge(users)); 
